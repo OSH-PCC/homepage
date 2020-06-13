@@ -1,0 +1,6 @@
+[submodule "themes/pelican-fh5co-marble"]
+	path = themes/pelican-fh5co-marble
+	url = https://github.com/claudio-walser/pelican-fh5co-marble
+[submodule "plugins"]
+	path = plugins
+	url = https://github.com/getpelican/pelican-plugins.git

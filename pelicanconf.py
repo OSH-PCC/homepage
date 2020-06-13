@@ -8,6 +8,13 @@ SITEURL = ''
 
 PATH = 'content'
 
+THEME = './themes/pelican-fh5co-marble'
+JINJA_ENVIRONMENT = {
+    "extensions": ["jinja2.ext.i18n"]
+}
+PLUGINS = ["i18n_subsites"]
+PLUGIN_PATHS = ['plugins']
+
 TIMEZONE = 'Asia/Tokyo'
 
 DEFAULT_LANG = 'ja'
@@ -19,15 +26,13 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+LOGO = 'images/logo.svg'
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('School', 'http://www.oji-sogo-h.metro.tokyo.jp/site/zen/'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('twitter', 'https://twitter.com/ospc956'),
+          ('github', 'https://github.com/OSH-PCC'),)
 
 DEFAULT_PAGINATION = 10
 DEFAULT_CATEGORY = 'blog'
