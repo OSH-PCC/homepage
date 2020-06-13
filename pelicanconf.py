@@ -26,7 +26,9 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+FAVICON = 'images/logo.svg'
 LOGO = 'images/logo.svg'
+
 # Blogroll
 LINKS = (('School', 'http://www.oji-sogo-h.metro.tokyo.jp/site/zen/'),)
 
