@@ -26,7 +26,7 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-FAVICON = 'images/logo.svg'
+FAVICON = 'images/favicon.png'
 LOGO = 'images/logo.svg'
 
 # Blogroll
