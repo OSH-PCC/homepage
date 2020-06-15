@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'pcc'
 SITENAME = '王子総合パソコン部HP'
-DESCRIPTION = '王子総合高校パソコン部の非公式ホームページです。お知らせや活動状況を投稿します。'
+SITEDESCRIPTION = '王子総合高校パソコン部の非公式ホームページです。お知らせや活動状況を投稿します。'
 SITEURL = ''
 
 PATH = 'content'
