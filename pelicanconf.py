@@ -40,5 +40,7 @@ SOCIAL = (('twitter', 'https://twitter.com/ospc956'),
 DEFAULT_PAGINATION = 10
 DEFAULT_CATEGORY = 'blog'
 
+GOOGLE_SITE_VERIFICATION_TOKEN = 'eb4ctB-VxH3AnUu7O5hJobwLDssB4DfVLB1-0X-dF40'
+
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
